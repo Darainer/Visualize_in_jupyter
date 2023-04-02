@@ -24,7 +24,7 @@ import matplotlib.patches as patches
 from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
 
-def visualize_crossing_vehicle_accident(vehicle_a_data, vehicle_b_data, vehicle_a_dim=(4.5, 1.8), vehicle_b_dim=(4.0, 1.9), fov_angle=120, fov_radius=10):
+def visualize_crossing_vehicle_accident(vehicle_a_data, vehicle_b_data, vehicle_a_dim=(4.5, 1.8), vehicle_b_dim=(4.0, 1.9), fov_angle=120, fov_radius=50):
     fig, ax = plt.subplots(figsize=(10, 10))
 
     # Initialize patches for both vehicles
